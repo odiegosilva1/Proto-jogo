@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "/home/diego/Documentos/GitHub/Proto-jogo/src"
+    "cmake.sourceDirectory": "/home/diego/Documentos/GitHub/Proto-jogo/src",
+    "C_Cpp.errorSquiggles": "disabled"
 }

@@ -21,8 +21,6 @@ find_package(nlohmann_json REQUIRED)
 
 add_executable(jogo2D WIN32
 src/main.cpp
-
-
 )
 
 
