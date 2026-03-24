@@ -1,0 +1,3 @@
+/home/diego/Documentos/GitHub/Proto-jogo/Build/CMakeFiles/jogo2D.dir
+/home/diego/Documentos/GitHub/Proto-jogo/Build/CMakeFiles/edit_cache.dir
+/home/diego/Documentos/GitHub/Proto-jogo/Build/CMakeFiles/rebuild_cache.dir

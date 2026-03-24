@@ -2,7 +2,7 @@
 #include <SDL2/SDL_image.h>
 #include <SDL2/SDL_mixer.h>
 #include <SDL2/SDL_ttf.h>
-/*#include <nlohmann/json.hpp>*/
+#include <nlohmann/json.hpp>
 #include <iostream>
 
 /*Func que verifica se SDL AV funcinona*/
@@ -26,7 +26,7 @@ int main(int argc, char* argv[]){
     std::cout << "SDL2_image (PNG) Inicializado com sucesso!" << std::endl;
 
     /*Parte de Fontes*/
-    if(TTF_Init() != -1) {
+    if(TTF_Init() == -1) {
 
         std::cout << "Erro ao incializar SDL2_ttf: " << TTF_GetError() << std::endl;
         IMG_Quit();
